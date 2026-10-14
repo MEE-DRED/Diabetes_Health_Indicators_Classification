@@ -1,0 +1,57 @@
+[
+  {
+    "model": "Majority baseline",
+    "threshold_rule": "thr=0.50",
+    "accuracy": 0.8606643540418375,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "pr_auc": 0.1393356459581625,
+    "threshold": 0.5
+  },
+  {
+    "model": "Best traditional (E4-HGB-lr0.1-l31)",
+    "threshold_rule": "thr=0.50",
+    "accuracy": 0.8668401135288553,
+    "precision": 0.5799863852961198,
+    "recall": 0.16069407770652583,
+    "f1": 0.2516614975631369,
+    "roc_auc": 0.8292734615484292,
+    "pr_auc": 0.4269805710934288,
+    "threshold": 0.5
+  },
+  {
+    "model": "Best traditional (E4-HGB-lr0.1-l31)",
+    "threshold_rule": "thr=val-tuned",
+    "accuracy": 0.8264217386733943,
+    "precision": 0.4062994390910398,
+    "recall": 0.532817804602037,
+    "f1": 0.4610363117095063,
+    "roc_auc": 0.8292734615484292,
+    "pr_auc": 0.4269805710934288,
+    "threshold": 0.27
+  },
+  {
+    "model": "Best neural net (DL-E3-reg)",
+    "threshold_rule": "thr=0.50",
+    "accuracy": 0.8671291916325029,
+    "precision": 0.6011513157894737,
+    "recall": 0.13787250094304035,
+    "f1": 0.22430193310831542,
+    "roc_auc": 0.82989980736061,
+    "pr_auc": 0.4274926136732809,
+    "threshold": 0.5
+  },
+  {
+    "model": "Best neural net (DL-E3-reg)",
+    "threshold_rule": "thr=val-tuned",
+    "accuracy": 0.8070272259013981,
+    "precision": 0.3811021787253874,
+    "recall": 0.6169370049038099,
+    "f1": 0.4711559236586244,
+    "roc_auc": 0.82989980736061,
+    "pr_auc": 0.4274926136732809,
+    "threshold": 0.23
+  }
+]
